@@ -1,0 +1,51 @@
+{
+  "dataset": {
+    "title": "Supporting data for Non-extractable residues (NER) in persistence assessment - effect on the degradation half-life of chemicals",
+    "version": "1",
+    "description": "Data has been collected from already published studies on chemical degradation in OECD 307, 308 or 309 tests or similar tests. All collected data is presented in the Excel-file \"Data from degradation studies\". In some studies the data was only presented in graphs. Here, the tool PlotDigitizer was used to extract the data from the graphs.\nIncluded studies has extractable parent substance, CO2, and NER measured at at least 5 timepoints.\nFor all substances we had data for, a reaction equation was set up using a set of rules determined for use for the Microbial Turnover to Biomass (MTB) method. The reaction assumed for each substance can be found in the Word-file \"Reactions\".\nWith the reaction, we could move on to predict the amount of bioNER developed during each study, using the MTB method. The calculations for each substance is seen in the Excel file \"MTB sheet\"\nCombining the data from the studies and the results from the MTB calculations, we investigated how different approached towards NER affected the degradation curve. The 4 investigated scenarios are set up for each substance in the Excel-file \"Scenarios for input to CAKE\".\nFor the following substances, a relevant metabolite has been modelled as well: glyphosate, thiamethoxam, triclosan.\nThe unit is %aL (% applied label) which is the percentage of the initially added compound. The tested compound is labelled, in order to follow its fate throughout the study."
+  },
+  "people": {
+    "creators": [
+      {
+        "name": "Cindy Michala Jespersen",
+        "email": "cindymjespersen@gmail.com",
+        "orcid": "0009-0006-8045-8936"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Stefan Trapp",
+        "orcid": "0000-0001-8968-6296"
+      },
+      {
+        "name": "Matthias K\u00e4stner",
+        "orcid": "0000-0003-4041-6257"
+      }
+    ]
+  },
+  "content": {
+    "files": [
+      "Data from degradation studies.xlsx",
+      "MTB sheet.xlsx",
+      "Scenarios for input to CAKE.xlsx",
+      "Reactions.docx",
+      "SFO outputs from CAKE.docx",
+      "DFOP outputs from CAKE.docx"
+    ],
+    "keywords": [
+      "Bound residues",
+      "DT50",
+      "DegT50",
+      "Microbial Turnover to Biomass",
+      "Pesticides",
+      "bioNER",
+      "XenoNER",
+      "PBT",
+      "Risk Assessment",
+      "REACH"
+    ]
+  },
+  "methods": "The method Microbial Turnover to Biomass (MTB) was used, other methods see project description.\nFor .csf-files, relevant software: CAKE (Computer Assisted Kinetic Evaluation) - degradation kinetics program, available for download at https://cake-kinetics.org/.\nFor .xslx-files: Microsoft Excel or other open-source alternatives",
+  "funding": "Bek\u00e6mpelsesmiddelforskningsprogrammet at Milj\u00f8styrelsen (The Pesticide Research Programme at the Danish EPA)",
+  "citation": "Jespersen CM, Trapp S, K\u00e4stner M (2024) Supporting data for Non-extractable residues (NER) in persistence assessment - effect on the degradation half-life of chemicals (DOI: https://doi.org/10.11583/DTU.27646149)\nThis dataset is published under the CC BY 4.0 license.\nThis license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator."
+}
